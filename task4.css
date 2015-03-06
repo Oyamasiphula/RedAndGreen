@@ -1,0 +1,23 @@
+#myButn {
+	float: left;
+	margin-left: 10px;
+
+}
+
+#boxed2 {
+	height: 300px;
+	width: 300px;
+	border: 5px solid;
+	background-color: white;
+	margin-left: 10px;
+}
+
+  #button2id {
+
+	position:relative;
+	margin-bottom: 350px;
+
+}
+#myButn {
+	margin-left: 10px;
+}
