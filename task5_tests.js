@@ -1,15 +1,21 @@
+
+// change to green
+setBackgroundColor('mySquare','green');
+// is it green?
+if(document.getElementById('mySquare').style.backgroundColor === 'green'){
+		window.alert("Success!");
+
+}else {
+	document.getElementById('mySquare').style.backgroundColor === 'red';
+	window.alert("Failure!");}
+
 // change to red
 setBackgroundColor('mySquare','red');
 // is it red?
 if(document.getElementById('mySquare').style.backgroundColor === 'red'){
-alert("Failure!");
+		window.alert("Failure!");
 
-}else if(document.getElementById('mySquare').style.backgroundColor === 'green'){
-	alert("Success!");
 }else {
-
-	alert("null is not a color!");
-}
-
-setBackgroundColor('mySquare','green');
+	document.getElementById('mySquare').style.backgroundColor === 'green';
+	window.alert("Success!");}
 
