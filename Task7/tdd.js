@@ -1,7 +1,7 @@
 var passed = 0;
 var failed = 0;
 var total = 0 ;
-
+var allTests = 0
 
 var assert = { 
 	equals: function(expectedResult,returnResult){
@@ -11,8 +11,6 @@ var assert = {
 	var newElement = document.createElement('div');
 	newElement.id = "mySquare"+total;
 	document.body.appendChild(newElement);
-	//document.getElementById().appendChild(newElement);
-
 	var myDiv = new RedOrGreen(newElement.id);
 
 	if(expectedResult === returnResult){
@@ -21,6 +19,9 @@ var assert = {
 	}else {
 			failed++;
 			myDiv.makeRed();
+			document.write(returnResult);
+
+
 	}
 
 	total = passed+failed;

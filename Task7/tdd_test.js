@@ -7,6 +7,7 @@ TestMyCode.run("testing hello world function", function(assert){
 TestMyCode.run("testing hello world function", function(assert){
     var result = helloWorld();
     // is the result as we expected?
+
     assert.equals("hello World!", result);
 });	
 
@@ -27,6 +28,6 @@ assert.equals("oyamaSiphula",result);
 TestMyCode.run("testing Oyama function", function(assert){
 var result = oyama();
 	//is the result as we expected?
-assert.equals("oyamaSiphula!",result);
+assert.equals("oyamaSiphla!",result);
 
 });
