@@ -1,0 +1,49 @@
+#img {
+
+	background-image:url("http://1.bp.blogspot.com/-p7EVk3HnwGw/UCJuX-7mWpI/AAAAAAAAAb0/rTwwhrgC3Dc/s1600/di-logo-java-orange.png");
+	  background-size: 3000px;
+  	background-repeat: no-repeat; 
+  	}
+
+.mySquare {
+
+height: 300px;
+width: 300px;
+border: 5px solid black;
+margin-bottom: 15px;
+}
+
+.progress{
+
+}
+
+h4 {
+	text-align: center;
+	font-family:Arial  ;
+    font-size: 30px;
+
+
+width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    -webkit-animation: mymove 4s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 4s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 185px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 185px;}
+}
+
+h3{
+	font-family:Arial  ;
+    font-size: 20px;
+
+}
