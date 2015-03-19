@@ -16,10 +16,15 @@ var assert = {
 	if(expectedResult === returnResult){
 			passed++; 
 			myDiv.makeGreen();
+	`	//*To show that the reults are the same as expected then it should pass!!! //*
+			document.write('<strong>Expected Results: </strong>'+returnResult+"</br>"+'<strong>Results: </strong>'+ expectedResult+'<br></br>');
+
+
 	}else {
 			failed++;
 			myDiv.makeRed();
-			document.write(returnResult);
+		//*To point where the problem is giving the difference*//
+			document.write('<strong>Expected Results: </strong>'+returnResult+"</br>"+'<strong>Results: </strong>'+ expectedResult+'<strong><em> <== Error </em>!</strong>'+'<br></br>');
 
 
 	}

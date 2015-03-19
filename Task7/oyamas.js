@@ -1,4 +1,4 @@
 function oyama(){
-	return("oyamaSiphula!");
+	return("oyama Siphula!");
 
 };
